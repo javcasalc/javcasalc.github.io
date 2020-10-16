@@ -207,7 +207,9 @@ localhost.localdomain#
 ```
 
 and here we have a classic router CLI we the typical commands:
+
 - *show version*
+
 ```
 localhost.localdomain# show version  
 FRRouting 7.1 (localhost.localdomain).  
@@ -219,7 +221,9 @@ ar/run/frr' '--disable-static' '--disable-werror' '--enable-irdp' '--enable-mult
 ble-eigrpd' '--enable-babeld' '--enable-user=frr' '--enable-group=frr' '--enable-vty-group=frrvty' '--enable-fpm' '--enable-watchfrr' '--disable-bgp-vnc' '--enable-isisd' '--enable-systemd' '--disable-rpki' '--enable-bfdd' 'SPHINXBUILD=s  
 phinx-build' 'build_alias=x86_64-redhat-linux-gnu' 'host_alias=x86_64-redhat-linux-gnu' 'PKG_CONFIG_PATH=:/usr/lib64/pkgconfig:/usr/share/pkgconfig'
 ```
+
 - *show ip protocols*:
+
 ```
 localhost.localdomain# show ip protocol  
 VRF: default  
@@ -256,7 +260,9 @@ wildcard : none
 any : none  
 localhost.localdomain#
 ```
+
 - *show ip ospf 1 interface*:
+
 ```
 localhost.localdomain# sho ip ospf 1 interface  
   
